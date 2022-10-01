@@ -1,0 +1,94 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.title-word {
+<<<<<<< HEAD
+    text-transform: uppercase;
+=======
+>>>>>>> origin/master
+    font-size: 110px;
+    animation: color-animation 4s linear infinite;
+    font-weight: bold;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: rgba(66, 135, 245, 0.9);
+    --color-3: #c9044d;
+}
+
+.title-word-2 {
+    --color-1: rgba(66, 135, 245, 0.9);
+    --color-2: #fd6391;
+    --color-3: #17494D;
+}
+
+.bounce {
+    animation: bounce-it 0.75s cubic-bezier(0.1, -0.6, 0.2, 0) 0.5s infinite alternate;
+}
+
+@keyframes bounce-it {
+    0%  {
+        transform: translateY(0);
+    }    
+    10% {
+        transform: translateY(10%);
+    }    
+    20% {
+        transform: translateY(20%);
+    }    
+    30% {
+        transform: translateY(30%);
+    }    
+    40% {
+        transform: translateY(40%);
+    }
+    50% {
+        transform: translateY(50%);
+    }
+    60% {
+        transform: translateY(60%);
+    }
+    70% {
+        transform: translateY(70%);
+    }
+    80% {
+        transform: translateY(80%);
+    }
+    90% {
+        transform:translateY(90%)
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.p-style {
+    font-size: 80px;
+<<<<<<< HEAD
+}
+
+=======
+}
+>>>>>>> origin/master

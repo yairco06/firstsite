@@ -1,0 +1,34 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: #F0EAD6;
+    display: flex;
+    place-items: center;
+}
+.lgnContents {
+}
+.input {
+    font-family: inherit;
+    height: 30px;
+    width: 250px;
+    text-align: right;
+    background-color: #d5c580;
+    border: 2px solid #06315d;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.input:active {
+    background-color: #d5c580;
+    border: 2px solid #1181F3;
+}
+
+input[type=submit] {
+    background-color: darkslategray;
+    border: none;
+    color: antiquewhite;
+    padding: 10px 20px;
+    cursor: pointer;
+}
